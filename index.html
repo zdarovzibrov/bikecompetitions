@@ -1,30 +1,82 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Competitions Bikes</title>
+    <meta
+      name="description"
+      content="Лучшие велосипеды для соревнований по пересеченной местности"
+    />
+  </head>
+  <body>
+    <!-- Первая секция -->
+    <div class="main-section">
+      <div class="container main-section__nav-container">
+        <!-- Секция заголовка -->
+        <h2 class="main-section__title">Велосипеды</h2>
+        <!-- Секция меню -->
+        <nav class="main-section__nav nav-menu">
+          <ul class="nav-menu__list">
+            <li class="nav-menu__item">Шоссе</li>
+            <li class="nav-menu__item">Грэвел</li>
+            <li class="nav-menu__item">ТТ</li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Галерея -->
+      <div class="container main-section__gal-container">
+        <div class="main-section__cards-box">
+          <div class="main-section__cards-item cards-item">
+            <img
+              class="bike-item__img"
+              src="./images/Cervelo_Caledonia_5.png"
+              alt="Cervelo_Caledonia"
+            />
+            <p class="main-section__cards-text">Cervelo Caledonia-5</p>
+          </div>
+        </div>
+        <div class="main-section__cards-box">
+          <div class="main-section__cards-item cards-item">
+            <img
+              class="bike-item__img"
+              src="./images/Cervelo_Caledonia_5.png"
+              alt="Cervelo_Caledonia"
+            />
+            <p class="main-section__cards-text">Cervelo Caledonia-5</p>
+          </div>
+        </div>
+        <div class="main-section__cards-box">
+          <div class="main-section__cards-item cards-item">
+            <img
+              class="bike-item__img"
+              src="./images/Cervelo_Caledonia_5.png"
+              alt="Cervelo_Caledonia"
+            />
+            <p class="main-section__cards-text">Cervelo Caledonia-5</p>
+          </div>
+        </div>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>
-    Катайся много или мало, долго или коротко, как хочешь - но катайся
-  </title>
-  <link rel="stylesheet" href="./pages/index.css" />
-</head>
-
-<main class="content">
-  <section class="intro">
-    <h1 class="intro__title">Шоссе, ТТ и Грэвел</h1>
-    <p class="intro__subtitle">
-      Триатлонные старты, горные серпантины или грейвел заезды по живописным
-      маршрутам – нужно только определиться с выбором велосипеда и отправиться
-      в путь.
-    </p>
-    <a class="intro__button" href="#">Подробнее о красных байках</a>
-    <div class="intro__manufacturer">
-      <p class="intro__caption">Cannondale Systemsix</p>
-      <span class="intro__decor-line"></span>
+      </div>
     </div>
-    <img class="intro__image" src="./images/road_forest.png" alt="Лес" />
-  </section>
-</main>
-
+    <section class="container strava">
+      <h2 class="main-section__title">Тренировки</h2>
+      <p>
+        Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.
+      </p>
+      </div>
+      <img class="intro__image" src="./images/highway_forest.png" alt="Трасса с поворотом" />
+    </section>
+    <section class="mailing">
+      <div class="container mailing__container">
+        <h3 class="mailing__title">Подпишитесь на
+           рассылку &ndash;</h3>
+        <form action="" class="mailing__form">
+          <input type="text" class="mailing__input" placeholder="Ваш e-mail">
+        </form>
+      </div>
+    </section>
+  </body>
 </html>

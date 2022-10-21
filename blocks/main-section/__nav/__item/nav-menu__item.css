@@ -1,0 +1,11 @@
+.nav-menu__item {
+    margin-right: 40px;
+}
+
+.nav-menu__item:last-child {
+    margin-right: 0;
+}
+
+.nav-menu__item:hover {
+    font-weight: 600;
+}

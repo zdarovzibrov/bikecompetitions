@@ -1,0 +1,10 @@
+.strava__image {
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    max-width: 610px;
+    max-height: 836px;
+    left: 830px;
+    top: 20px;
+
+  }

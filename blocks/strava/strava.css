@@ -1,0 +1,9 @@
+.strava {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: row;
+
+  }

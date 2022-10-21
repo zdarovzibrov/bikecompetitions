@@ -1,0 +1,7 @@
+.cards-item {
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    box-shadow: -20px 60px 220px rgba(219, 214, 214, 0.44);
+    margin-right: 43px;
+}
