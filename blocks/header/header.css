@@ -1,7 +1,9 @@
 .header {
-    max-width: 1440px;
-    padding: 28px 0;
-    background: #F4F4F4;
-    margin: 0 auto;
-
+  position: sticky;
+  top: 0px;
+  max-width: 1440px;
+  padding: 28px 0;
+  background: #f4f4f4;
+  margin: 0 auto;
+  z-index: 1;
 }
