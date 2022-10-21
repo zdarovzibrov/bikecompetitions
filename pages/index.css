@@ -29,10 +29,10 @@
 @import url("../blocks/strava/__image/strava__image.css");
 @import url("../blocks/strava/strava.css");
 
-@import url("../blocks/mailing/mailing.css");
-@import url("../blocks/mailing/__title/mailing__title.css");
-@import url("../blocks/mailing/__container/mailing__container.css");
-@import url("../blocks/mailing/__form/mailing__form.css");
-@import url("../blocks/mailing/__input/mailing__input.css");
-@import url("../blocks/mailing/__copy/mailing__copy.css");
-@import url("../blocks/mailing/__form/mailing__form.css");
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__title/footer__title.css");
+@import url("../blocks/footer/__container/footer__container.css");
+@import url("../blocks/footer/__form/footer__form.css");
+@import url("../blocks/footer/__input/footer__input.css");
+@import url("../blocks/footer/__copy/footer__copy.css");
+@import url("../blocks/footer/__form/footer__form.css");
