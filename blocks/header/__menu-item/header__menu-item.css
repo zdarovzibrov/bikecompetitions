@@ -1,0 +1,18 @@
+.header__menu-item {
+  margin-right: 34px;
+}
+
+.header__menu-item:last-child {
+  margin-right: 120px;
+}
+
+.header__menu-item a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #151515;
+  text-decoration: none;
+}
+
+.header__menu-item a:hover {
+  border-bottom: 1px solid #000;
+}
